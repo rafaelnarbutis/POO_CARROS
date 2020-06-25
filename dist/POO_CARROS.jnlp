@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="POO_CARROS.jnlp">
+  <information>
+    <title>POO_CARROS</title>
+    <vendor>Rafan</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="POO_CARROS.jar" size="86228" download="eager" />
+    <jar href="lib\Mask.jar" size="8290" download="eager" />
+    <jar href="lib\jfoenix-8.0.8.jar" size="2708772" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.48.jar" size="1006956" download="eager" />
+    <jar href="lib\mysql-socket-factory-1.0.14.jar" size="3094" download="eager" />
+    <jar href="lib\mysql-socket-factory-connector-j-8-1.0.10.jar" size="4519" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="POO_CARROS" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="app.application"  name="POO_CARROS" />
+  <update check="always"/>
+</jnlp>

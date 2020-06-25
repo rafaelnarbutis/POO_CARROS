@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="330.0" prefWidth="895.0" style="-fx-background-color: white; -fx-background-radius: 10; -fx-border-color: F5F3F2; -fx-border-radius: 10;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ComprarCarroController">
+   <children>
+      <JFXTextField fx:id="txtMarca" labelFloat="true" layoutX="179.0" layoutY="39.0" promptText="Marca" />
+      <JFXTextField fx:id="txtModelo" labelFloat="true" layoutX="367.0" layoutY="39.0" promptText="Modelo" />
+      <JFXComboBox fx:id="comboTipo" labelFloat="true" layoutX="562.0" layoutY="39.0" prefHeight="25.0" prefWidth="123.0" promptText="Tipo" />
+      <JFXTextField fx:id="txtKm" labelFloat="true" layoutX="214.0" layoutY="108.0" prefHeight="25.0" prefWidth="135.0" promptText="Km" />
+      <JFXTextField fx:id="txtAno" labelFloat="true" layoutX="367.0" layoutY="108.0" promptText="Ano" />
+      <JFXComboBox fx:id="comboTanque" labelFloat="true" layoutX="531.0" layoutY="108.0" prefHeight="25.0" prefWidth="123.0" promptText="Tanque" />
+      <JFXTextField fx:id="txtPlaca" labelFloat="true" layoutX="294.0" layoutY="177.0" promptText="Placa" />
+      <JFXTextField fx:id="txtValor" labelFloat="true" layoutX="447.0" layoutY="177.0" promptText="Valor em R$" />
+      <JFXButton fx:id="btnComprar" layoutX="409.0" layoutY="264.0" onAction="#btnComprar" text="Comprar" />
+      <JFXButton fx:id="btnAtualiza" layoutX="299.0" layoutY="264.0" onAction="#btnAtualizar" text="Atualizar" visible="false" />
+   </children>
+</AnchorPane>
